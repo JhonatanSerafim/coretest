@@ -1,4 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+}
+
 body{
     background-color: #e5e5e5;
+}
 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background-color: #FFFFFF;
+
+    .logo{
+
+        img{
+        
+        }
+    }
+
+    .search{
+
+        input{
+
+        }
+
+        i{
+
+        }
+
+    }
+
+    .btn-my-acount{
+
+        input{
+
+        }
+
+        img{
+
+        }
+
+    }
+
+    .btn-minicart{
+
+    }
+
+    a{
+
+    }
+
+    img{
+
+    }
+    
 }
