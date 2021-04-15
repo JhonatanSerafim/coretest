@@ -51,4 +51,103 @@ header .btn-my-acount input {
   left: 1404px;
   top: 31px;
 }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .secao1 {
+  height: 430px;
+  background: #000000;
+  color: white;
+}
+
+.container .secao3 {
+  height: 146px;
+  background: #F2F2F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .col3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .col3 .btn-text input {
+  width: 280px;
+  height: 48px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  color: #585858;
+  border: none;
+  font-size: 12px;
+  font-style: Lato;
+}
+
+.container .col3 .btn input {
+  width: 140px;
+  height: 48px;
+  border-radius: 5px;
+  background: #000000;
+  color: #FFFFFF;
+  border: none;
+}
+
+.container h1 {
+  text-align: center;
+  font-style: lato;
+  font-size: 22px;
+}
+
+footer {
+  height: 213px;
+  background: #000000;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .rodape1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=style.css.map */
