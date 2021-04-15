@@ -20,6 +20,35 @@ header {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #FFFFFF;
+  height: 80px;
+}
+
+header .logo img {
+  width: 170px;
+  height: 40px;
+  color: #000;
+}
+
+header .search input {
+  font-style: nunito;
+  width: 718px;
+  border: 1px solid #7A7A7A;
+}
+
+header .search img {
+  color: #7A7A7A;
+}
+
+header .btn-my-acount input {
+  border: none;
+  background-color: #FFFFFF;
+  width: 97px;
+  height: 20px;
+  left: 1404px;
+  top: 31px;
 }
 /*# sourceMappingURL=style.css.map */
