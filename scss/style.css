@@ -68,6 +68,10 @@ header .btn-my-acount input {
   color: white;
 }
 
+.container .secao1 img {
+  height: 430px;
+}
+
 .container .secao3 {
   height: 146px;
   background: #F2F2F2;
