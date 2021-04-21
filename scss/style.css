@@ -169,17 +169,25 @@ footer .rodape1 .address p {
   padding-bottom: 10px;
 }
 
+footer .rodape2 {
+  margin-top: 20px;
+}
+
 footer .rodape2 .btn {
-  border: 2px;
+  width: 195px;
+  height: 38px;
   background-color: white;
+  margin-bottom: 15%;
+  border-radius: 5px;
 }
 
 footer .rodape2 input {
   border: none;
+  background-color: #FFFFFF;
 }
 
 footer .rodape2 i {
-  color: red;
+  color: black;
 }
 
 footer .rodape3 {
