@@ -193,15 +193,37 @@ footer{
             background-color: white;
             margin-bottom: 15%;
             border-radius: 5px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         input{
             border: none;
             background-color: #FFFFFF;
+            font-family: 'Nunito', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+
+            input[text]{
+                color: red;
+            }
         }
 
         i{
             color: black;
+            margin-right: 10px;
+        }
+        p{
+         color: black;
+         font-size: 12px;
+         font-weight: 600;
+         font-family: 'Nunito', sans-serif;
+         text-align: center;
+         padding: 0;
+         margin: 0;
+
         }
 
     }
