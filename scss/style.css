@@ -198,8 +198,9 @@ footer .rodape2 input {
   font-weight: 600;
 }
 
-footer .rodape2 input input[text] {
+footer .rodape2 input[type=text] {
   color: red;
+  font-size: 200px;
 }
 
 footer .rodape2 i {

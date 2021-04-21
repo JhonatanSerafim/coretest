@@ -206,9 +206,11 @@ footer{
             font-size: 12px;
             font-weight: 600;
 
-            input[text]{
-                color: red;
-            }
+            
+        }
+        input[type=text]{
+            color: red;
+            font-size: 200px;
         }
 
         i{
