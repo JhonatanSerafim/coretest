@@ -16,6 +16,8 @@ header{
 
     background-color: #FFFFFF;
 
+    width: 100%;
+    max-width: 1920px;
     height: 80px;
 
     .logo{
@@ -80,9 +82,11 @@ header{
     flex-direction: column;
 
     .secao1{
-        height: 430px;
-        background: #000000;
-        color: white;
+
+        img{
+            max-width: 1920px;
+            height: 430px;
+        }
 
     }
 
@@ -146,17 +150,89 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 
+   
+
     .rodape1{
-        display: flex;
-        flex-direction: column;
+        font-family: 'Nunito', sans-serif;
+        
+
+        .title{
+            padding-bottom: 10px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+        }
+
+        
+            hr{
+                border-bottom: 2px solid white;
+            
+            }
+        
+
+        .address{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 12px;
+            padding-top: 30px;
+            
+            p{
+                padding-bottom: 10px;
+            }
+        }
 
     }
 
     .rodape2{
+        
+
+        .btn{
+            border: 2px;
+            background-color: white;
+        }
+
+        input{
+            border: none;
+        }
+
+        i{
+            color: red;
+        }
 
     }
 
     .rodape3{
 
+        display: flex;
+        flex-direction: row;
+        
+
+        img{
+            width: 52.28px;
+            height: 18.72px;
+        }
+
+        .logo-1{
+            display: flex;
+            flex-direction: column;
+
+            .logo-core-biz{
+                width: 70px;
+                height: 18px;
+                
+            }
+
+        }
+        .logo-2{
+            display: flex;
+            flex-direction: column;         
+
+            .logo-vtex{
+                width: 70px;
+                height: 18px;
+                
+            }
+        }
     }
 }
